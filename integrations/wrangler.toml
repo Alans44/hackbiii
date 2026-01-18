@@ -1,0 +1,33 @@
+# Cloudflare Workers Configuration for EcoShelf
+# ==============================================
+# MLH Prize: Best AI Application Built with Cloudflare
+#
+# Deploy with: npx wrangler deploy
+
+name = "ecoshelf-ai-worker"
+main = "cloudflare_worker.js"
+compatibility_date = "2024-01-01"
+
+# Enable Cloudflare Workers AI
+[ai]
+binding = "AI"
+
+# Optional: Add R2 bucket for image storage
+# [[r2_buckets]]
+# binding = "IMAGES"
+# bucket_name = "ecoshelf-images"
+
+# Optional: Add KV namespace for caching
+# [[kv_namespaces]]
+# binding = "CACHE"
+# id = "your-kv-namespace-id"
+
+# Environment variables
+[vars]
+ENVIRONMENT = "production"
+APP_NAME = "EcoShelf"
+
+# Development settings
+[dev]
+port = 8787
+local_protocol = "http"
