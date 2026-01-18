@@ -1,12 +1,4 @@
-/**
- * Cloudflare Workers AI Integration for EcoShelf
- * ================================================
- * Uses Cloudflare Workers AI for serverless freshness analysis.
- * 
- * MLH Prize: Best AI Application Built with Cloudflare
- * 
- * Deploy with: wrangler deploy
- */
+
 
 export default {
   async fetch(request, env, ctx) {

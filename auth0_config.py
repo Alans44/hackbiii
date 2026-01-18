@@ -1,12 +1,3 @@
-"""
-Auth0 Integration for EcoShelf
-================================
-Secure authentication using Auth0's free tier.
-Supports social sign-in, MFA, and passwordless login.
-
-MLH Prize: Best Use of Auth0
-"""
-
 import os
 from functools import wraps
 from flask import request, jsonify, session, redirect, url_for

@@ -1,16 +1,4 @@
-"""
-MongoDB Atlas Integration for EcoShelf
-=======================================
-Cloud-native database for storing detection history and user preferences.
 
-MLH Prize: Best Use of MongoDB Atlas
-
-Features:
-- Real-time detection logging
-- User preference storage
-- Analytics aggregation
-- Time-series freshness data
-"""
 
 import os
 from datetime import datetime, timedelta

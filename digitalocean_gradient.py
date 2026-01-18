@@ -1,15 +1,4 @@
-"""
-DigitalOcean Gradient AI Integration for EcoShelf
-===================================================
-GPU-accelerated inference using DigitalOcean's Gradient platform.
 
-MLH Prize: Best Use of DigitalOcean Gradient™ AI
-
-Features:
-- GPU Droplet inference for fast YOLO detection
-- Serverless inference endpoints
-- 1-Click model deployment
-"""
 
 import os
 import requests

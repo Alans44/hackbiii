@@ -1,8 +1,3 @@
-"""
-Simple Fruit/Vegetable & Bottle Detector
-A bare-bones application that detects produce, estimates spoilage, and identifies plastic bottles.
-"""
-
 import cv2
 import torch
 import numpy as np

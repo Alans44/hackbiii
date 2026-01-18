@@ -1,27 +1,3 @@
-"""
-EcoShelf Integrations Package
-==============================
-
-This package contains integrations with various MLH sponsor technologies:
-
-- Auth0: Secure authentication (auth0_config.py)
-- Cloudflare Workers AI: Serverless AI inference (cloudflare_worker.js)
-- DigitalOcean Gradient: GPU-accelerated ML (digitalocean_gradient.py)
-- ElevenLabs: Voice alerts (elevenlabs_voice.py)
-- Generative AI: Recipe suggestions (genai_recipes.py)
-- MongoDB Atlas: Cloud database (mongodb_atlas.py)
-- Solana: Blockchain tracking (solana_tracker.py)
-
-MLH Prizes Targeted:
-- Best Use of Auth0
-- Best AI Application Built with Cloudflare
-- Best Use of DigitalOcean Gradient™ AI
-- Best Use of ElevenLabs
-- Best Use of Gen AI
-- Best Use of MongoDB Atlas
-- Best Use of Solana
-"""
-
 from .auth0_config import (
     AUTH0_DOMAIN,
     AUTH0_CLIENT_ID,

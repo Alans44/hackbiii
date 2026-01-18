@@ -1,11 +1,5 @@
 """
-Solana Blockchain Integration for EcoShelf
-============================================
-Decentralized food waste tracking and rewards system.
-
-MLH Prize: Best Use of Solana
-
-Features:
+Features
 - Immutable waste prevention records
 - Token rewards for waste reduction
 - Transparent impact tracking

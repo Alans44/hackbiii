@@ -1,15 +1,3 @@
-"""
-ElevenLabs Voice Integration for EcoShelf
-==========================================
-Natural, human-sounding voice alerts for food freshness notifications.
-
-MLH Prize: Best Use of ElevenLabs
-
-Features:
-- Voice announcements when food is expiring
-- Multi-language support
-- Emotionally expressive notifications
-"""
 
 import os
 import requests
